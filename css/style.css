@@ -1,0 +1,45 @@
+:root {
+  --bg: #0d0d0d;
+  --text: #ffffff;
+  --neon: #00f5e0;
+  --accent: #e09f3e;
+  --font-title: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12vh 2rem;
+}
+
+.logo {
+  width: 200px;
+  max-width: 100%;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0 0 12px var(--neon));
+}
+
+h1 {
+  font-family: var(--font-title);
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 1px;
+  color: var(--accent);
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: var(--neon);
+  margin-top: 0.5rem;
+}

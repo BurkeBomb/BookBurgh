@@ -1,0 +1,20 @@
+{
+  "name": "BookBurgh",
+  "short_name": "BookBurgh",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0d0d0d",
+  "theme_color": "#00f5e0",
+  "icons": [
+    {
+      "src": "assets/favicon-64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
